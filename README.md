@@ -176,6 +176,46 @@ The general log file for DNP3 (dnp3.log) is produced by Zeek's default DNP3 pars
 
 Detailed logging for 7 DNP3 functions are logged in the control log file (dnp3_control.log) and 2 DNP3 functions are logged in the objects log file (dnp3_objects.log). There are a total of 37 default DNP3 functions, however, 7 of these DNP3 functions do not contain any additional data to be logged. ~23% (7/30) of data containing default DNP3 functions contain detailed logging.
 
+| Function                      | Logging Level        |
+| ----------------------------- | -------------------- |
+| Confirm                       | Logged - Header Only |
+| Read                          | Logged - Full        |
+| Write                         | Logged - Header Only |
+| Select                        | Logged - Full        |
+| Operate                       | Logged - Full        |
+| Direct Operate                | Logged - Full        |
+| Direct Operate No ACK         | Logged - Full        |
+| Immediate Freeze              | Logged - Header Only |
+| Immediate Freeze No ACK       | Logged - Header Only |
+| Freeze and Clear              | Logged - Header Only |
+| Freeze and Clear No ACK       | Logged - Header Only |
+| Freeze with Time              | Logged - Header Only |
+| Freeze with Time No ACK       | Logged - Header Only |
+| Cold Restart                  | Logged - Header Only |
+| Warm Restart                  | Logged - Header Only |
+| Initialize Data               | Logged - Header Only |
+| Initialize Application        | Logged - Header Only |
+| Start Application             | Logged - Header Only |
+| Stop Application              | Logged - Header Only |
+| Save Configuration            | Logged - Header Only |
+| Enable Unsolicited Message    | Logged - Header Only |
+| Disable Unsolicited Message   | Logged - Header Only |
+| Assign Classes                | Logged - Header Only |
+| Delay Measurement             | Logged - Header Only |
+| Record Current Time           | Logged - Header Only |
+| Open File                     | Logged - Header Only |
+| Close File                    | Logged - Header Only |
+| Delete File                   | Logged - Header Only |
+| Get File Info                 | Logged - Header Only |
+| Authenticate File             | Logged - Header Only |
+| Abort File                    | Logged - Header Only |
+| Activate Config               | Logged - Header Only |
+| Authentication Request        | Logged - Header Only |
+| Authentication Request No ACK | Logged - Header Only |
+| Response                      | Logged - Full        |
+| Unsolicited Response          | Logged - Header Only |
+| Authentication Response       | Logged - Header Only |
+
 ## ICSNPP Packages
 
 All ICSNPP Packages:
